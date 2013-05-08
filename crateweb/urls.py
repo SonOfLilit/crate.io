@@ -31,6 +31,9 @@ urlpatterns = patterns("",
     url(r"^packages/", include("crate.web.packages.urls")),
 
     url(r"^stats/", include("crate.web.packages.stats.urls")),
+
+    url(r"^simple/", include("crate.web.packages.simple.urls")),
+
     #url(r"^help/", include("helpdocs.urls")),
     #url(r"^api/", include("crateweb.api_urls")),
 
